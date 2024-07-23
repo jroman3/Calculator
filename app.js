@@ -10,6 +10,8 @@ let decimalAdded = false
 
 const operators = ['+', '-', 'x', '÷']
 
+
+
 function handleKeyPress(e){
     const key = e.target.dataset.key
     const lastChar = operation[operation.length - 1]
